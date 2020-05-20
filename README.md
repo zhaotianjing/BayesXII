@@ -1,7 +1,7 @@
 # BayesXII
 
 ## Introduction
-BayesXII is a fast parallelized algorithm for Bayesian regression models, where "X" stands for Bayesian alphabet methods and "II" stands for "parallel". Ideally, the computations at each step of the MCMC chain can be accelerated by *k* times, where *k* is the number of computer processors, up to *p* times, where *p* is the number of markers. Ideally, the sampling of each marker effect can be made independent of samples for other marker effects within each step of the chain. 
+BayesXII is a fast parallelized algorithm for Bayesian regression models, where "X" stands for Bayesian alphabet methods and "II" stands for "parallel". Ideally, the computations at each step of the MCMC chain can be accelerated by *k* times, where *k* is the number of computer processors, up to *p* times, where *p* is the number of markers.
 
 Details can be found in this [paper](https://gsejournal.biomedcentral.com/articles/10.1186/s12711-020-00533-x):  
 *Zhao T, Fernando R, Garrick D, et al. Fast parallelized sampling of Bayesian regression models for whole-genome prediction[J]. Genetics Selection Evolution, 2020, 52(1): 1-11.*
